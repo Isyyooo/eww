@@ -1,0 +1,10 @@
+(include "./yuck/vbar.yuck")
+
+(defwindow bar
+    :monitor 0
+    :exclusive true
+    :stacking "fg"
+    :focusable false
+    :geometry (geometry :width "1%"
+                        :height "100%"
+                        :anchor "center left")(bar))
